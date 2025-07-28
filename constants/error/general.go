@@ -14,6 +14,7 @@ var (
 	ErrUnauthorized        = errors.New("unauthorized")
 	ErrForbidden           = errors.New("forbidden")
 	ErrInvalidToken        = errors.New("invalid token")
+	ErrSQLError            = errors.New("sql error")
 )
 
 var GeneralErrors = []error{
